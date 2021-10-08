@@ -1,0 +1,133 @@
+
+/* start dashbord*/
+
+.home-stats .stat{
+    background-color:#EEE;
+    padding:20px;
+    font-size:15px;
+    color:#FFF;
+}
+.home-stats .stat a{
+    color:#FFF;
+}
+.home-stats .stat a:hover{
+    text-decoration:none;
+}
+.home-stats .stat span{
+    display:block;
+    font-size:60px;
+}
+.latest{
+    margin-top:30px;
+}
+.home-stats .st-members{
+    background-color:#3498db ;
+}
+.home-stats .st-pending{
+    background-color:#c0392b ;
+}
+.home-stats .st-items{
+    background-color:#d35400 ;
+}
+.home-stats .st-comments{
+    background-color:#8e44ad ;
+}
+.categories .cat:hover .hidden-buttons{
+    right:10px;
+}
+.categories .cat:hover{
+    background-color:#EEE;
+}
+.categories .cat
+{
+    position:relative;
+    overflow:hidden;
+    padding:10px;
+}
+.categories .cat h3{
+    margin:0 0 10px;
+}
+.categories .panel-body{
+    padding:0px;
+}
+.categories hr{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.categories .cat:last-of-type ~ hr{
+    display:none;
+}
+
+
+.categories .cat .visibility{
+    background-color:#d35400;
+    color:#fff;
+    padding:5px 10px;
+    margin-right:10px;
+    border-radius:6px;
+}
+.categories .cat .Commenting{
+    background-color:#2c3e50;
+    color:#fff;
+    padding:5px 10px;
+    margin-right:10px;
+    border-radius:6px;
+}
+.categories .cat .ads{
+    background-color:#c0392b;
+    color:#fff;
+    padding:5px 10px;
+    margin-right:10px;
+    border-radius:6px;
+}
+/* end dashbord*/
+/* start Edit bostrap */
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #286090;
+}
+
+.navbar{
+    background-color: rgb(4, 50, 61);
+}
+/* End Edit bostrap */
+
+/* start login*/
+body{background-color:#f4f4f4;
+
+}
+.login
+{
+width:300px;
+margin:100px auto;	
+}
+
+.login h4{
+color:#888;
+}
+.login input
+{
+width:300px;
+margin-bottom:10px;	
+}
+.login .form-control
+{
+background-color:#E5E5E5;	
+}
+/* end login*/
+
+/* start user*/
+.img-class{
+    width: 50px;
+    height: 50px;
+} 
+.table-user td{
+    color:saddlebrown;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.table-user tr:first-child td{
+    color:#fff;
+    background-color:rgb(9, 83, 49);
+}
+
+/* end user*/
